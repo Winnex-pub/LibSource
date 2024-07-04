@@ -1,6 +1,8 @@
 --[[
   UI lib made by bungie#0001
-  - This Lib Is Not Made By Me All Credits To bungie#0001 This Is Just A Modded version.
+  
+  - Please do not use this without permission, I am working really hard on this UI to make it perfect and do not have a big 
+    problem with other people using it, please just make sure you message me and ask me before using.
 ]]
 
 -- / Locals
@@ -78,7 +80,7 @@ end
 
 local library = {
     version = "2.0.2",
-    title = title or "" .. tostring(math.random(1,366)),
+    title = title or "xsx " .. tostring(math.random(1,366)),
     fps = 0,
     rank = "private"
 }
@@ -200,7 +202,7 @@ function library:Watermark(text)
         end
     end
 
-    tetx = text or "Nigger"
+    tetx = text or "xsx v2"
 
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
@@ -521,7 +523,7 @@ function library:InitNotifications(text, duration, callback)
         
         CreateTween("notification_load", 0.2)
 
-        text = text or "Please Wait.."
+        text = text or "please wait."
         duration = duration or 5
         type = type or "notification"
         callback = callback or function() end
@@ -754,9 +756,9 @@ function library:Introduction()
     xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     xsxLogo.BackgroundTransparency = 1.000
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    xsxLogo.Size = UDim2.new(0, 170, 0, 170)
+    xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "http://www.roblox.com/asset/?id=15269178344"
+    xsxLogo.Image = "http://www.roblox.com/asset/?id=9365068051"
     xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     xsxLogo.ImageTransparency = 1
     
@@ -766,13 +768,13 @@ function library:Introduction()
     hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hashLogo.BackgroundTransparency = 1.000
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    hashLogo.Size = UDim2.new(0, 250, 0, 250)
+    hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
-    hashLogo.Image = "http://www.roblox.com/asset/?id=15269178344"
+    hashLogo.Image = "http://www.roblox.com/asset/?id=9365069861"
     hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     hashLogo.ImageTransparency = 1
     
-    xsx.Name = "Universal"
+    xsx.Name = "xsx"
     xsx.Parent = background
     xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     xsx.BackgroundTransparency = 1.000
@@ -787,7 +789,7 @@ function library:Introduction()
     text.Parent = background
     text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     text.BackgroundTransparency = 1.000
-    text.Position = UDim2.new(0.85, 0, 0, 0)
+    text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
     text.Text = "Universal"
